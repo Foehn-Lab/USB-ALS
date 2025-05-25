@@ -26,7 +26,7 @@ print("Product: %s" % h.get_product_string())
 print("Serial No: %s" % h.get_serial_number_string())
 # print("Firmware: %s" % h.get_feature_report())
 # 设置非阻塞模式（可选）
-# h.set_nonblocking(True)
+h.set_nonblocking(True)
 
 # 读取数据
 luxs_history = []
